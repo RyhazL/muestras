@@ -1,0 +1,24 @@
+{
+  "name": "paginarecetas",
+  "version": "1.0.0",
+  "description": "pagina web de recetas",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.4",
+    "jsonfile": "^5.0.0",
+    "node-json-db": "^0.9.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Zahyr Lanz, Carlis Rondon",
+  "license": "ISC"
+}

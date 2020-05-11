@@ -1,0 +1,19 @@
+extends Layout/head.pug
+block titulo
+    title ZACARY: Edicion de Recetas
+block content
+    .mainBox.mbfixed
+        .mTitle
+            h1 Admin Panel: Edicion de Recetas
+        a.prestlink(href="/admin/n") Añadir Nueva Receta
+        each edit in recetas
+            .editcolum
+                p= edit.name + "  "
+                    a(href="/admin/d/" + edit.inx + "?name=" + edit.name) Eliminar
+        a.prestlink(href="/?logout=true") Cerrar Session.
+                
+
+            
+        
+        
+        

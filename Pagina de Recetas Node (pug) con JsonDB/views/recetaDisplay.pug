@@ -1,0 +1,19 @@
+extends Layout/head.pug
+block titulo
+    title= nombre
+block content
+    .mainBox.mbfixed.p5
+        .mTitle
+            h1= nombre
+        img.big(src="/img/" + imgurl, alt="" , style="")
+        if (description !=" ")
+            p= descripcion
+        h3 Ingredientes:
+        ul
+            each ing in ingredientes
+                li= ing
+        h3 Pasos a seguir:
+        ul
+            each pss in pasos
+                li= pss
+        

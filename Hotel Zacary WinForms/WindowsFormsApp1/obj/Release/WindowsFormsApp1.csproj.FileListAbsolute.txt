@@ -1,0 +1,12 @@
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe.config
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\bin\Release\WindowsFormsApp1.pdb
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.MainForm.resources
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.ResDisHabForm.resources
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.VerfRes.resources
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
+E:\Documentos\Sistemas de Informacion 2\ZACARY HOTEL\ZACARY\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb

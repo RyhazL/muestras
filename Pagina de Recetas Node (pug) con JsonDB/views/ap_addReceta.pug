@@ -1,0 +1,19 @@
+extends Layout/head.pug
+block titulo
+    title ZACARY: Añadir Recetas
+block content
+    .mainBox.mbfixed
+        form(action="/admin/n" method="post")
+            fieldset.lbl ingresa valores:
+                label.lbl(for="n") Nombre de la receta:
+                    input#n(type="text", name="f[nombre]" required)
+                label.lbl(for="d") Descripcion nde la receta:
+                    input#p(type="textarea", rows="10" cols="50" name="f[descripcion]" required)
+                label.lbl(for="i") Ingredentes (separar con ";"):
+                    input#p(type="textarea", rows="10" cols="50" name="f[ingredientes]" required)
+                label.lbl(for="p") pasos (separar con ";"):
+                    input#p(type="textarea", rows="10" cols="50" name="f[pasos]" required)
+                label.lbl(for="img") Imagen de la receta (alocada en la carpeta public):
+                    input#img(type="text", name="f[imgurl]" required)
+                input(type="submit", value="¡Listo!")
+                input(type="submit" formaction="/admin/n_prev" formtarget="_blank" value="Ver preview")

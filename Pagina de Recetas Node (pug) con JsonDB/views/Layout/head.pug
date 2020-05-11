@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        block titulo
+            title RECETAS ZACARY
+        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet", href="/css/icons.css")
+    body.base
+        header.cabeza
+            a.brw.fltL.m5(href="#") 
+                i(class="fab fa-google-plus-square fa-2x")
+            a.brw.fltL.m5(href="#") 
+                i(class="fab fa-twitter-square fa-2x")
+            a.brw.fltL.m5(href="#") 
+                i(class="fab fa-facebook fa-2x")
+            .barra.fltL
+            a(href="/")
+                h1.fltL RECETAS ZACARY
+            a.brw.m5.fltR(href="/login")
+                i(class="fas fa-sign-in-alt fa-2x")
+        .realbody
+            block content
+    block ftr

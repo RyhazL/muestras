@@ -1,0 +1,8 @@
+extends Layout/head.pug
+block titulo
+    title ZACARY: Admin Login
+block content
+        form.login.mainBox(action="/admin", method="Get")
+            h1= "Seguro que desea eliminar la receta " + nombre
+            input(type="submit", formaction="/admin/d/" + i + "/true", value="Eliminar")
+            input(type="submit", value="NO")

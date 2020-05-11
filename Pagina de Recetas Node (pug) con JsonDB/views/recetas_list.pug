@@ -1,0 +1,12 @@
+extends Layout/head.pug
+block content
+    .mainBox.mbfixed
+        h1 Estas son nuestras recetas, ¡Disfrutalas!
+        if recetas
+            each elem in recetas
+                a.prestlink(href="/recetas/ver/" + elem.inx)= elem.name
+        else
+            h2 No se Pudo encontrar esta pagina. 
+            a(href="/") Volver al inicio.
+
+        

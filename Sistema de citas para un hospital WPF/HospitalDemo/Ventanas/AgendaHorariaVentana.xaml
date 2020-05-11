@@ -1,0 +1,83 @@
+﻿<Window x:Class="HospitalDemo.Ventanas.AgendaHorariaVentana"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HospitalDemo.Ventanas"
+        mc:Ignorable="d"
+        Title="AgendaHorariaVentana" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <!--eccion de botones de guardado y combobox-->
+                <StackPanel Orientation="Vertical" Margin="8" VerticalAlignment="Top">
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock x:Name="agenLabel" Text="Agenda: " Margin="10,0" FontSize="14" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="selectComboBox" Width="240" FontSize="14" SelectionChanged="SelectComboBox_SelectionChanged"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Nombre: " Margin="10,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="nameTextBox" Width="240" FontSize="14" TextChanged="NameTextBox_TextChanged"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <Button x:Name="aceptarBtn" Content="Guardar" Padding="20,0" Click="AceptarBtn_Click" FontSize="14" />
+                        <Button x:Name="cancelBtn" Content="Cancelar" Padding="20,0" Margin="10,0" Click="CancelBtn_Click" FontSize="14"/>
+                    </StackPanel>
+                </StackPanel>
+                <Border Background="Black" Height="1"/>
+                <!--Seccion de modificacion de horarios-->
+                <StackPanel Orientation="Vertical" Margin="8" VerticalAlignment="Top">
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Lunes: " Margin="22,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="lunesComboBox" Width="200" FontSize="14" TextChanged="LunesComboBox_TextChanged"/>
+                        <TextBlock x:Name="lunesTextEstado" Text="No Trabaja Hoy" Background="Green" Padding="20,0" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" 
+                                   Foreground="White" FontWeight="Bold" TextWrapping="WrapWithOverflow" MaxWidth="400"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Martes: " Margin="19,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="martesComboBox" Width="200" FontSize="14" TextChanged="MartesComboBox_TextChanged"/>
+                        <TextBlock x:Name="martesTextEstado" Text="No Trabaja Hoy" Background="Green" Padding="20,0" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" 
+                                   Foreground="White" FontWeight="Bold" TextWrapping="WrapWithOverflow"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Miercoles: " Margin="11,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="miercolesComboBox" Width="200" FontSize="14" TextChanged="MiercolesComboBox_TextChanged"/>
+                        <TextBlock x:Name="miercolesTextEstado" Text="No Trabaja Hoy" Background="Green" Padding="20,0" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold" 
+                                   Foreground="White" TextWrapping="WrapWithOverflow"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Jueves: " Margin="20,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="juevesComboBox" Width="200" FontSize="14" TextChanged="JuevesComboBox_TextChanged"/>
+                        <TextBlock x:Name="juevesTextEstado" Text="No Trabaja Hoy" Background="Green" Padding="20,0" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" 
+                                   Foreground="White" FontWeight="Bold" TextWrapping="WrapWithOverflow"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Viernes: " Margin="17,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="viernesComboBox" Width="200" FontSize="14" TextChanged="ViernesComboBox_TextChanged"/>
+                        <TextBlock x:Name="viernesTextEstado" Text="No Trabaja Hoy" Background="Green" Padding="20,0" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" 
+                                   Foreground="White" FontWeight="Bold" TextWrapping="WrapWithOverflow"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Sabado: " Margin="16,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="sabadoComboBox" Width="200" FontSize="14" TextChanged="SabadoComboBox_TextChanged"/>
+                        <TextBlock x:Name="sabadoTextEstado" Text="No Trabaja Hoy" Background="Green" Padding="20,0" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" 
+                                   Foreground="White" FontWeight="Bold" TextWrapping="WrapWithOverflow"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="8">
+                        <TextBlock Text="Domingo: " Margin="10,0" FontSize="14" VerticalAlignment="Center"/>
+                        <TextBox x:Name="domingoComboBox" Width="200" FontSize="14" TextChanged="DomingoComboBox_TextChanged"/>
+                        <TextBlock x:Name="domingoTextEstado" Text="No Trabaja Hoy" Background="Green" Padding="20,0" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" 
+                                   Foreground="White" FontWeight="Bold" TextWrapping="WrapWithOverflow"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
