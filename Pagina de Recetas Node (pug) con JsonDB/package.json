@@ -9,7 +9,7 @@
     "express": "^4.16.4",
     "jsonfile": "^5.0.0",
     "node-json-db": "^0.9.1",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
