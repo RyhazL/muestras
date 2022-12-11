@@ -4,9 +4,9 @@
   "description": "pagina web de recetas",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cookie-session": "^2.0.0-beta.3",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "jsonfile": "^5.0.0",
     "node-json-db": "^0.9.1",
     "pug": "^2.0.3"
